@@ -4,17 +4,6 @@ Created on Sun Jul 26 18:04:31 2020
 
 @author: rm23m
 """
-# Program to calculate average of n numbers
-num = int(input('How many numbers: '))
-total_sum = 0.
-for n in range(0,num):
-  numbers = float(input('Enter number : '))
-  total_sum += numbers
-avg = total_sum/num
-print('Average of ', num, ' numbers is :', avg)
-
-#%%
-
 #program to print factorial of a number
 num=int(input("enter the number: "))
 factorial=1
@@ -89,4 +78,4 @@ print(type(lst1))
 print(type(lst2)) 
 print(lst[2:3]) 
 print(lst+lst3)
-  
+
