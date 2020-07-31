@@ -78,7 +78,7 @@ def func(a=5,b=9):
         sum=sum+i
     print("sum is : ", sum)
 
-func(1,9)
+func()
 #%%
 def func(a,b):
     print(a+b)
@@ -91,6 +91,4 @@ func("my","name")
 def func(a="hello",b="world"):
     print(a+b)
 
-x=input("enter the first string :")
-y=input("enter the second string :")
-func(x,y)    
+func()    
